@@ -8,7 +8,7 @@
     </div>
 
     <div class="charsheet-style__block">
-      <h3 class="charsheet-style__title">Cheuveux</h3>
+      <h3 class="charsheet-style__title">Cheveux</h3>
       <p class="charsheet-style__content">
         {{ !emptyStyle ? appearance.hair : '' }}
       </p>

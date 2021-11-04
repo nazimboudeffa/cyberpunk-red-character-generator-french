@@ -9,7 +9,7 @@
     <div class="charsheet-stats__base-info">
       <h2 class="charsheet-stats__name">
         {{character.name}}, {{character && character.role}}
-        <small>(Reputation: {{ character.reputation }})</small>
+        <small>(Réputation: {{ character.reputation }})</small>
       </h2>
 
       <div class="charsheet-stats__stats-row">
