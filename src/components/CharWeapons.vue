@@ -1,6 +1,6 @@
 <template>
   <section class="charsheet-weapons">
-    <h3 class="charsheet-weapons__title">Weapons</h3>
+    <h3 class="charsheet-weapons__title">Armes</h3>
     <table class="charsheet-weapons__table">
       <tbody>
         <tr v-for="(weapon, index) in weapons" :key="`weapon_${index}`">

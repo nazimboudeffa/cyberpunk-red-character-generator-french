@@ -1,7 +1,7 @@
 <template>
   <section class="charsheet-lifepath">
     <div class="charsheet-lifepath__block">
-      <h3 class="charsheet-lifepath__title">Background</h3>
+      <h3 class="charsheet-lifepath__title">Histoire Familliale</h3>
       <p class="charsheet-lifepath__content">
         {{ !emptyLifePath ? lifepath.background : '' }}
       </p>
@@ -15,14 +15,14 @@
     </div>
 
     <div class="charsheet-lifepath__block">
-      <h3 class="charsheet-lifepath__title">Goals</h3>
+      <h3 class="charsheet-lifepath__title">Objectifs</h3>
       <p class="charsheet-lifepath__content">
         {{ !emptyLifePath ? lifepath.goals : '' }}
       </p>
     </div>
 
     <div class="charsheet-lifepath__block">
-      <h3 class="charsheet-lifepath__title">Friends</h3>
+      <h3 class="charsheet-lifepath__title">Amis</h3>
       <p class="charsheet-lifepath__content">
         <template v-if="!emptyLifePath">
           <ol v-if="lifepath.friends.length > 0">
@@ -37,7 +37,7 @@
     </div>
 
     <div class="charsheet-lifepath__block">
-      <h3 class="charsheet-lifepath__title">Enemies</h3>
+      <h3 class="charsheet-lifepath__title">Ennemis</h3>
       <p class="charsheet-lifepath__content">
         <template v-if="!emptyLifePath">
           <ol v-if="lifepath.enemies.length > 0">
@@ -52,14 +52,14 @@
     </div>
 
     <div class="charsheet-lifepath__block">
-      <h3 class="charsheet-lifepath__title">Romance</h3>
+      <h3 class="charsheet-lifepath__title">Histoire d'Amour</h3>
       <p class="charsheet-lifepath__content">
         {{ !emptyLifePath ? lifepath.romance : '' }}
       </p>
     </div>
 
     <div class="charsheet-lifepath__block">
-      <h3 class="charsheet-lifepath__title">Personality</h3>
+      <h3 class="charsheet-lifepath__title">Personalité</h3>
       <p class="charsheet-lifepath__content">
         {{ !emptyLifePath ? lifepath.personality : '' }}
       </p>

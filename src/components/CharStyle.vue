@@ -1,14 +1,14 @@
 <template>
   <section class="charsheet-style" >
     <div class="charsheet-style__block">
-      <h3 class="charsheet-style__title">Clothes</h3>
+      <h3 class="charsheet-style__title">Habits</h3>
       <p class="charsheet-style__content">
         {{ !emptyStyle ? appearance.clothes : '' }}
       </p>
     </div>
 
     <div class="charsheet-style__block">
-      <h3 class="charsheet-style__title">Hair</h3>
+      <h3 class="charsheet-style__title">Cheuveux</h3>
       <p class="charsheet-style__content">
         {{ !emptyStyle ? appearance.hair : '' }}
       </p>
@@ -22,7 +22,7 @@
     </div>
 
     <div class="charsheet-style__block">
-      <h3 class="charsheet-style__title">Origin and Lang</h3>
+      <h3 class="charsheet-style__title">Origine et Langue</h3>
       <p class="charsheet-style__content">
         {{ !emptyStyle ? appearance.origin : '' }}
       </p>
