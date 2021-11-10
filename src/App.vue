@@ -14,7 +14,7 @@
       <div class="footer__content">
         <p>
           Contenu &copy; R. Talsorian Games, Inc.<br />
-          Code &copy; Ben Serrette
+          Code &copy; Ben Serrette<br />
           Traduction en Français Nazim Boudeffa
         </p>
       </div>

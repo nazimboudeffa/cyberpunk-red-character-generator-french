@@ -5,16 +5,16 @@
     <section class="charsheet-header">
       <div class="charsheet-header__roles">
         <button class="button" @click="chosen_role = character.role; set_role = !set_role;">
-          Set Role
+          Régler Rôle
         </button>
         <select v-if="set_role" v-model="chosen_role" class="select-input">
           <option v-for="role in role_options" :key='`role_option_${role}`'>{{role}}</option>
         </select>
       </div>
       <div class="charsheet-header__actions">
-        <button class="button button--white" @click="generateCharacter">Regen</button>
+        <button class="button button--white" @click="generateCharacter">Regénérer</button>
         <button class="button button--white" @click="toggleEdit">
-          {{ !edit ? 'Edit' : 'Save' }}
+          {{ !edit ? 'Editer' : 'Sauvegarder' }}
         </button>
         <button class="button button--white" @click="showOptionsModal">Options</button>
         <a
@@ -22,7 +22,7 @@
           href="https://drive.google.com/file/d/1o84Y9-X3tsIU6cfk_hd0JD3pkM19bSi3/view?usp=drivesdk"
           target="_blank"
         >
-          Blank Sheet
+          Feuille Blanche
         </a>
       </div>
     </section>
