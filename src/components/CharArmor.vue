@@ -1,6 +1,6 @@
 <template>
   <section class="charsheet-armor">
-    <h3 class="charsheet-armor__title">Arure</h3>
+    <h3 class="charsheet-armor__title">Armure</h3>
     <table class="charsheet-armor__table">
       <tbody>
         <tr>
