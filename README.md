@@ -1,4 +1,6 @@
-# cyberpunk_char_gen
+# Générateur de Personnage CyberPunk RED
+
+Merci à [Ben Serrette](https://github.com/benabus/cyberpunk-red-character-generator) pour son travail
 
 ## Database
 
