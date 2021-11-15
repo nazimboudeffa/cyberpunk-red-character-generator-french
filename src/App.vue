@@ -15,7 +15,7 @@
         <p>
           Contenu &copy; R. Talsorian Games, Inc.<br />
           Code &copy; Ben Serrette<br />
-          Traduction en Français Nazim Boudeffa
+          Traduction en Français www.cyberpunk-jdr.fr
         </p>
       </div>
       <div class="footer__content">
