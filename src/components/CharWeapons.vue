@@ -11,7 +11,7 @@
           <td v-text="weapon.damage" class="charsheet-weapons__info-number"></td>
         </tr>
         <tr v-if="weapons.length == 0">
-          <td colspan="2">PAs d'Armes.</td>
+          <td colspan="2">Pas d'Armes.</td>
         </tr>
       </tbody>
     </table>
