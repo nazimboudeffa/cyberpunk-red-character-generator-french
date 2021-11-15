@@ -6,17 +6,17 @@ export default {
     },
     Tracking: {
         stat: "INT",
-        name: "Tracking",
+        name: "Piste",
         description: "Suivre une piste"
     },
     Education: {
         stat: "INT",
-        name: "Education",
+        name: "Connaissance",
         description: "Culture générale, savoir scientifique, mathématique ou historique, actualité"
     },
     "Local Expert": {
         stat: "INT",
-        name: "Local Expert",
+        name: "Guide Local",
         description: "Connaître votre lieu de résidence, les factions présentes et leurs objectifs"
     },
     Interface: {
@@ -26,12 +26,12 @@ export default {
     },
     Marksmanship: {
         stat: "REF",
-        name: "Marksmanship",
+        name: "Tir Précis",
         description: "Utiliser une arme à distance avec précision"
     },
     Driving: {
         stat: "REF",
-        name: "Driving",
+        name: "Conduite",
         description: "Piloter des véhicules avec dextérité"
     },
     Evasion: {
@@ -41,27 +41,27 @@ export default {
     },
     Athletics: {
         stat: "DEX",
-        name: "Athletics",
+        name: "Athlétisme",
         description: "Puissance musculaire, capacités athlétiques"
     },
     Stealth: {
         stat: "DEX",
-        name: "Stealth",
+        name: "Furtivité",
         description: "Se cacher et se mouvoir sans bruit"
     },
     Brawling: {
         stat: "DEX",
-        name: "Brawling",
+        name: "Bagarre",
         description: "Se battre en utilisant tous les membres de son corps"
     },
     Melee: {
         stat: "DEX",
-        name: "Melee",
+        name: "Corps à corps",
         description: "Combattre avec des armes de mêlée"
     },
     "Basic Tech": {
         stat: "TECH",
-        name: "Basic Tech",
+        name: "Electronique",
         description: "Identifier, comprendre et réparer des pièces électroniques"
     },
     Cybertech: {
@@ -71,17 +71,17 @@ export default {
     },
     "First Aid": {
         stat: "TECH",
-        name: "First Aid",
+        name: "Premier secours",
         description: "Panser vos plaies et celles des autres"
     },
     Bribery: {
         stat: "COOL",
-        name: "Bribery",
+        name: "Corruption",
         description: "Savoir à qui graisser la patte, quand et pour quelle somme"
     },
     Interrogation: {
         stat: "COOL",
-        name: "Interrogation",
+        name: "Interrogatoire",
         description: "Soutirer des informations par la force"
     },
     Persuasion: {
@@ -101,12 +101,12 @@ export default {
     },
     "Human Perception": {
         stat: "EMP",
-        name: "Human Perception",
+        name: "Jouer instrument",
         description: "Savoir jouer d’un instrument et écrire des partitions"
     },
     "Play Instrument": {
         stat: "EMP",
-        name: "Play Instrument",
+        name: "Psychologie",
         description: "Déchiffrer le langage corporel pour décrypter les émotions"
     }
 };
