@@ -2,111 +2,111 @@ export default {
     Perception: {
         stat: "INT",
         name: "Perception",
-        description: "Search for the Hidden; Detect Lies, Emotions"
+        description: "Découvrir des objets caches, déchiffrer les émotions, reconnaître un mensonge"
     },
     Tracking: {
         stat: "INT",
         name: "Tracking",
-        description: "Follow a Trail Left Behind"
+        description: "Suivre une piste"
     },
     Education: {
         stat: "INT",
         name: "Education",
-        description: "Know Sciences, History, Trivia, Current Events"
+        description: "Culture générale, savoir scientifique, mathématique ou historique, actualité"
     },
     "Local Expert": {
         stat: "INT",
         name: "Local Expert",
-        description: "Know Local Area, Local Factions, Agendas —"
+        description: "Connaître votre lieu de résidence, les factions présentes et leurs objectifs"
     },
     Interface: {
         stat: "NET",
         name: "Interface",
-        description: "Special “hacker” Skill available only to Netrunners"
+        description: "Compétence spéciale de Piratage accessible uniquement aux Netrunners."
     },
     Marksmanship: {
         stat: "REF",
         name: "Marksmanship",
-        description: "Fire Ranged Weapons Accurately"
+        description: "Utiliser une arme à distance avec précision"
     },
     Driving: {
         stat: "REF",
         name: "Driving",
-        description: "Drive Vehicles Skillfully"
+        description: "Piloter des véhicules avec dextérité"
     },
     Evasion: {
         stat: "DEX",
         name: "Evasion",
-        description: "Dodge Attacks You See Coming"
+        description: "Esquiver les attaque que vous voyez venir"
     },
     Athletics: {
         stat: "DEX",
         name: "Athletics",
-        description: "Feats of Strength, General Athleticism."
+        description: "Puissance musculaire, capacités athlétiques"
     },
     Stealth: {
         stat: "DEX",
         name: "Stealth",
-        description: "Hiding and Moving Silently"
+        description: "Se cacher et se mouvoir sans bruit"
     },
     Brawling: {
         stat: "DEX",
         name: "Brawling",
-        description: "Martial Fighting Using The Whole Body"
+        description: "Se battre en utilisant tous les membres de son corps"
     },
     Melee: {
         stat: "DEX",
         name: "Melee",
-        description: "Weapon Fighting With Melee Weapons"
+        description: "Combattre avec des armes de mêlée"
     },
     "Basic Tech": {
         stat: "TECH",
         name: "Basic Tech",
-        description: "Identify, Understand, and Repair Electronics"
+        description: "Identifier, comprendre et réparer des pièces électroniques"
     },
     Cybertech: {
         stat: "TECH",
         name: "Cybertech",
-        description: "Identify, Understand, and Repair Cybernetics"
+        description: "Identifier, comprendre et réparer des implants cybernétiques"
     },
     "First Aid": {
         stat: "TECH",
         name: "First Aid",
-        description: "Patch Up Others and Yourself"
+        description: "Panser vos plaies et celles des autres"
     },
     Bribery: {
         stat: "COOL",
         name: "Bribery",
-        description: "Know When, Who and How Much to Bribe"
+        description: "Savoir à qui graisser la patte, quand et pour quelle somme"
     },
     Interrogation: {
         stat: "COOL",
         name: "Interrogation",
-        description: "Forcibly Extract Info from People"
+        description: "Soutirer des informations par la force"
     },
     Persuasion: {
         stat: "COOL",
         name: "Persuasion",
-        description: "Convince, Persuade or Influence People"
+        description: "Convaincre, persuader ou influencer les gens"
     },
     Concentration: {
         stat: "WILL",
         name: "Concentration",
-        description: "Focus, Memory, Mental Toughness"
+        description: "Se concentrer, faire appel à sa mémoire, sang-froid"
     },
     Conversation: {
         stat: "EMP",
         name: "Conversation",
-        description: "Extract Info Through Careful Conversation"
+        description: "Soutirer des informations au détour des conversations"
     },
     "Human Perception": {
         stat: "EMP",
         name: "Human Perception",
-        description: "Read Faces, Bodies to Detect Lies, Emotions"
+        description: "Savoir jouer d’un instrument et écrire des partitions"
     },
     "Play Instrument": {
         stat: "EMP",
         name: "Play Instrument",
-        description: "Playing an Instrument and Writing Music"
+        description: "Déchiffrer le langage corporel pour décrypter les émotions"
     }
 };
